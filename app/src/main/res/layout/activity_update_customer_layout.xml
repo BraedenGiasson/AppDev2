@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/primary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/update_customer_title"
+            android:textAlignment="center"
+            android:textColor="@color/text_color"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/customer_add_update_margins">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                style="@style/LoginTextInputLayoutStyle"
+                app:boxCornerRadiusBottomEnd="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+                android:textColorHint="@color/text_color"
+                app:hintTextColor="@color/secondary_text_color"
+                app:hintTextAppearance="@style/LoginTextInputLayoutStyle"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <EditText
+                    android:id="@+id/update_customer_first_name_ed"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:autofillHints=""
+                    android:backgroundTint="@color/primary_background"
+                    android:textColor="@color/text_color"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:ems="10"
+                    android:hint="@string/customer_first_name_text"
+                    android:inputType="textPersonName"
+                    android:tag="name" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                style="@style/LoginTextInputLayoutStyle"
+                app:boxCornerRadiusBottomEnd="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+                android:textColorHint="@color/text_color"
+                app:hintTextColor="@color/secondary_text_color"
+                app:hintTextAppearance="@style/LoginTextInputLayoutStyle"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <EditText
+                    android:id="@+id/update_customer_last_name_ed"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:autofillHints=""
+                    android:backgroundTint="@color/primary_background"
+                    android:textColor="@color/text_color"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:ems="10"
+                    android:hint="@string/customer_last_name_text"
+                    android:inputType="textPersonName"
+                    android:tag="name" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--        <com.google.android.material.textfield.TextInputLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="@dimen/customer_add_update_margins"-->
+<!--            android:backgroundTint="#FFFFFF"-->
+<!--            tools:ignore="MissingConstraints">-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/update_customer_phone_ed"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:autofillHints=""-->
+<!--                android:backgroundTint="#FFFFFF"-->
+<!--                android:ems="10"-->
+<!--                android:hint="@string/customer_phone_number_text"-->
+<!--                android:inputType="phone"-->
+<!--                android:tag="name" />-->
+<!--        </com.google.android.material.textfield.TextInputLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/choose_an_address"
+                android:textColor="@color/text_color"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/update_customer_addresses_sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/spinner_style"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/gradient_spinner"
+                android:popupBackground="@drawable/gradient_spinner_popup" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/update_set_default_address_cb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="15dp"
+            android:theme="@style/MyCheckBox"
+            android:buttonTint="@color/secondary_text_color"
+            android:text="@string/set_as_default_address_text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/update_add_new_address_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/no_gradient_button_rectangle"
+                android:textColor="@color/text_color"
+                android:text="@string/add_new_addresses_text" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/update_customer_edit_addresses_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/no_gradient_button_rectangle"
+                android:textColor="@color/text_color"
+                android:text="@string/edit_addresses_text" />
+        </LinearLayout>
+
+        <!--        <Button-->
+<!--            android:id="@+id/button"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Button" />-->
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/cancel_update_customer_btn"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="wrap_content"
+                android:background="@drawable/no_gradient_button"
+                android:text="@string/cancel_text"
+                android:textColor="@color/text_color"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/update_customer_btn"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="wrap_content"
+                android:text="@string/update_text"
+                android:background="@drawable/gradient_button"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

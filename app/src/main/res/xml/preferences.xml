@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:key="@string/company_name_key"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="%s"
+        android:title="@string/company_name" />
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:key="@string/number_of_employees_key"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+         android:summary="%s"
+        android:title="@string/number_of_employees" />
+</PreferenceScreen>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/2043670/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/drawable/card_edge.xml" value="0.3635" />
+        <entry key="..\:/Users/2043670/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/drawable/gradient_button.xml" value="0.3635" />
+        <entry key="..\:/Users/2043670/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/drawable/rounded_corner.xml" value="0.3625" />
+        <entry key="..\:/Users/2043670/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/activity_create_new_customer_layout.xml" value="0.3625" />
+        <entry key="..\:/Users/2043670/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/activity_create_new_invoice_layout.xml" value="0.3625" />
+        <entry key="..\:/Users/2043670/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/activity_customer_details_layout.xml" value="0.25" />
+        <entry key="..\:/Users/2043670/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/activity_invoice_details_layout.xml" value="0.3625" />
+        <entry key="..\:/Users/2043670/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/activity_main.xml" value="0.3484375" />
+        <entry key="..\:/Users/2043670/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/activity_update_customer_layout.xml" value="0.33" />
+        <entry key="..\:/Users/2043670/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/addresses_item_recycler_view_layout.xml" value="0.3614583333333333" />
+        <entry key="..\:/Users/2043670/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/create_invoice_detail_layout.xml" value="0.3625" />
+        <entry key="..\:/Users/2043670/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/customer_item_recycler_view_layout.xml" value="0.3625" />
+        <entry key="..\:/Users/2043670/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/fragment_address_reycler_view_layout.xml" value="0.33" />
+        <entry key="..\:/Users/2043670/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/fragment_customer_recycler_view_layout.xml" value="0.3625" />
+        <entry key="..\:/Users/2043670/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/fragment_invoice_details_recycler_view_layout.xml" value="0.3625" />
+        <entry key="..\:/Users/2043670/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/fragment_invoices_recycler_view_layout.xml" value="0.25" />
+        <entry key="..\:/Users/2043670/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/invoice_details_item_recycler_view_layout.xml" value="0.3625" />
+        <entry key="..\:/Users/2043670/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/invoices_item_recycler_view_layout.xml" value="0.33" />
+        <entry key="..\:/Users/2043670/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/modify_addresses_layout.xml" value="0.33" />
+        <entry key="..\:/Users/2043670/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/update_invoice_detail_layout.xml" value="0.3625" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/drawable-v24/no_gradient_button_rectangle.xml" value="0.349" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/drawable/card_edge.xml" value="0.368" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/drawable/cursor_color.xml" value="0.3295" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/drawable/fab_drawable.xml" value="0.349" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/drawable/fab_layout.xml" value="0.349" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/drawable/gradient_button.xml" value="0.158" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/drawable/gradient_spinner.xml" value="0.3295" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/drawable/gradient_spinner_popup.xml" value="0.3295" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/drawable/ic_add_black_24dp.xml" value="0.368" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.368" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.368" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.368" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml" value="0.349" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/drawable/ic_baseline_warning_24.xml" value="0.368" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/drawable/ic_baseline_warning_ywellow_24.xml" value="0.368" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/drawable/ic_launcher_background.xml" value="0.368" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/drawable/no_gradient_button.xml" value="0.367" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/drawable/text_layout.xml" value="0.35" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/activity_create_new_customer_layout.xml" value="0.3261538461538461" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/activity_create_new_invoice_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/activity_customer_details_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/activity_invoice_details_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/activity_main.xml" value="0.20253164556962025" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/activity_update_customer_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/activity_update_invoice_details_layout.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/activity_update_invoice_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/add_address_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/addresses_item_recycler_view_layout.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/create_invoice_detail_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/customer__item_recycler_view_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/customer_item_recycler_view_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/fragment_address_reycler_view_layout.xml" value="0.3671875" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/fragment_customer_recycler_view_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/fragment_invoice_details_recycler_view_layout.xml" value="0.3671875" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/fragment_invoices_recycler_view_layout.xml" value="0.3671875" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/invoice_details_item_recycler_view_layout.xml" value="0.3671875" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/invoices_item_recycler_view_layout.xml" value="0.3671875" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/modify_addresses_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/layout/update_invoice_detail_layout.xml" value="0.3671875" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/menu/menu.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/menu/menu_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/2043670/OneDrive - John Abbott College/Desktop/AppDev2-2022/Assignment 4/app/src/main/res/xml/preferences.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">InvoiceApp_BraedenGiasson</string>
+
+    <!--activity_invoice_details_layout-->
+    <string name="invoice_text">INVOICE</string>
+    <string name="your_invoice_text">Your Invoices</string>
+    <string name="your_address_text">Your Address</string>
+    <string name="your_invoice_totals_text">Invoice Totals</string>
+    <string name="invoice_total_text">Invoice Total</string>
+    <string name="invoice_table_title_product_name">Product Name</string>
+    <string name="invoice_table_title_price_per_unit">Unit Price</string>
+    <string name="invoice_table_title_quantity">QTY</string>
+    <string name="invoice_table_title_line_total">Total</string>
+
+    <!--customer_item_recycler_view_layout-->
+    <string name="customer_name">Customer Name</string>
+    <string name="number_of_invoices_text">Number of invoices:</string>
+    <string name="number_of_invoices_amount">0</string>
+
+    <!--Customer add / update-->
+    <string name="customer_first_name_text">First name</string>
+    <string name="customer_last_name_text">Last name</string>
+    <string name="customer_phone_number_text">Phone number</string>
+    <string name="customer_address_text">Address</string>
+    <string name="customer_city_text">City</string>
+    <string name="customer_province_text">Province / State</string>
+    <string name="customer_country_text">Country</string>
+    <string name="customer_postal_code_text">Postal Code</string>
+    <string name="set_as_default_address_text">Set as default address</string>
+
+    <string name="choose_an_address">Choose an address</string>
+    <string name="add_new_addresses_text">Add new address</string>
+    <string name="edit_addresses_text">Edit addresses</string>
+
+    <string name="update_text">Update</string>
+    <string name="create_text">Create</string>
+    <string name="add_text">Add</string>
+    <string name="cancel_text">Cancel</string>
+
+    <string name="invoice_update_products_title">Add products</string>
+    <string name="invoice_update_edit_products_title">Edit products</string>
+    <string name="invoice_create_title">Create an invoice</string>
+    <string name="invoice_update_title">Update invoice</string>
+
+    <!--invoices_item_recycler_view_layout-->
+    <string name="invoice_name">Invoice Name</string>
+    <string name="invoice_item_total">1000</string>
+
+    <string name="update_customer_title">Update Customer</string>
+    <string name="update_add_address_title">Add address</string>
+    <string name="update_address_title">Update address</string>
+
+    <!--CreateCustomerActivity-->
+    <string name="first_name_isRequired">First name is required</string>
+    <string name="last_name_isRequired">Last name is required</string>
+    <string name="address_isRequired">Address is required</string>
+    <string name="city_isRequired">City is required</string>
+    <string name="province_isRequired">Province / State is required</string>
+    <string name="country_isRequired">Country is required</string>
+    <string name="postalCode_isRequired">Postal Code is required</string>
+
+    <string name="date_of_issue_text">Date of issue</string>
+    <string name="invoice_number_text">Invoice number</string>
+
+    <!--CreateInvoiceDetailFragment-->
+    <string name="product_name_isRequired">Product name is require</string>
+    <string name="ppu_isRequired">Price per unit is require</string>
+    <string name="quantity_isRequired">Quantity is require</string>
+
+    <string name="create_customer_title">Create a customer</string>
+
+    <!--create_invoice_detail_layout-->
+    <string name="customer_invoice_detail_productname_text">Product name</string>
+    <string name="customer_invoice_detail_priceperunit_text">Price per unit</string>
+    <string name="customer_invoice_detail_quantity_text">Quantity</string>
+    <string name="customer_invoice_detail_title_text">Create Invoice Detail</string>
+    <string name="customer_invoice_detail_title__update_text">Update Invoice Detail</string>
+    <string name="customer_invoice_modify_addresses_text">Modify Your Addresses</string>
+
+    <string name="done_text">Done</string>
+
+    <!--DialogHolder-->
+    <string name="customer_delete_dialog_title">Delete Customer</string>
+    <string name="invoice_delete_dialog_title">Delete Invoice</string>
+    <string name="address_delete_dialog_title">Delete Address</string>
+    <string name="invoice_detail_delete_dialog_title">Delete Invoice Detail</string>
+    <string name="delete_dialog_positive">Yes</string>
+    <string name="delete_dialog_negative">No</string>
+    <string name="delete_dialog_undo">Undo</string>
+
+    <!--Tooltips-->
+    <string name="fab_add_customer">Add Customer</string>
+    <string name="fab_add_invoice">Add Invoice</string>
+    <string name="fab_add_invoice_detail">Add Invoice Detail</string>
+
+    <string name="add_first_customer">Add a customer to get started!</string>
+    <string name="add_first_invoice">Add your first invoice!</string>
+    <string name="add_first_address">Go back to add your first address</string>
+    <string name="add_first_address_update">Add an address for you!</string>
+
+    <!--Preferences-->
+    <string name="company_name">Company name</string>
+    <string name="number_of_employees">Number of employees</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Menu-->
+    <string name="menu_home">Home</string>
+    <string name="number_of_employees_key">number_of_employees_key</string>
+    <string name="company_name_key">company_name_key</string>
+</resources>

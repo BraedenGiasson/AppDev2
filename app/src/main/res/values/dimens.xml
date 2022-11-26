@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="customer_add_update_margins">12dp</dimen>
+    <dimen name="customer_details_margins">13dp</dimen>
+    <dimen name="customer_invoice_details_margins_startend">13dp</dimen>
+    <dimen name="customer_invoice_details_margins_topbottom">5dp</dimen>
+    <dimen name="invoice_details_margins">10dp</dimen>
+    <dimen name="invoice_details_margins_top">15dp</dimen>
+    <dimen name="invoice_details_margins_sides">7dp</dimen>
+    <dimen name="invoice_details_padding_topbottom">5dp</dimen>
+    <dimen name="invoice_details_margin_from_name">50dp</dimen>
+    <dimen name="invoice_details_margin_from_">20dp</dimen>
+    <dimen name="invoices_recycler_view_margin">450dp</dimen>
+    <dimen name="button_width">125dp</dimen>
+    <dimen name="design_fab_image_size" tools:override="true">30dp</dimen>
+</resources>
