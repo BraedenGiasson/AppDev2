@@ -1,23 +1,5 @@
 # :iphone: Invoicing App 
 
-Customer details page:
-
-![CustomerDetails](./images/CustomerDetails.PNG)
-
-Invoice page:
-
-![Invoice](./images/Invoice.PNG)
-
-Update invoice page:
-
-![UpdateInvoice](./images/UpdateInvoice.PNG)
-
-
-
-These are just some of the pages in the app, explore for yourself to see more!
-
-# Welcome to Creative Wordle Clone! :cyclone:
-
 ## :bookmark_tabs: Table of Contents
 
 - **:question: [Why this Project?](#question-why-this-project)**
@@ -84,3 +66,20 @@ Now, you need to **open Android Studio**. Once opened, click on '**Open**' to op
     <img 	src="https://github.com/BraedenGiasson/braedengiasson.github.io/raw/main/src/assets/svg/skills/git.svg" alt="Git" title="Git" width="50px" height="50px">
         &nbsp;
 </div>
+
+
+Customer details page:
+
+![CustomerDetails](./images/CustomerDetails.PNG)
+
+Invoice page:
+
+![Invoice](./images/Invoice.PNG)
+
+Update invoice page:
+
+![UpdateInvoice](./images/UpdateInvoice.PNG)
+
+
+
+These are just some of the pages in the app, explore for yourself to see more!
