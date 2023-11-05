@@ -21,7 +21,7 @@ These are just some of the pages in the app, explore for yourself to see more!
 ## :bookmark_tabs: Table of Contents
 
 - **:question: [Why this Project?](#question-why-this-project)**
-- **:earth_americas: [How to Play](#earth_americas-how-to-play)**
+- :arrow_down: [**Android Studio Installation**](#arrow_down-android-studio-installation) 
 - **:video_game: [Play the Game](#video_game-play-the-game)**
 - **:open_file_folder: [Languages, Frameworks/Libraries, and Tools](#open_file_folder-languages-frameworkslibraries-and-tools)**
 
@@ -33,18 +33,11 @@ The **goal** of the assignment was to **create**, **design**, and **implement** 
 
 A customer can add invoices to their profile, and can modify them as they please.
 
+## :arrow_down: Android Studio Installation 
 
-## :joystick: Usage
+:warning: **If you already have Android Studio installed, [skip this part](#dart-getting-started).**   
 
-:warning: **Coming soon!**
-
-## :arrow_down: Android Studio Installation & Setup
-
-:information_source: **If you already have Android Studio installed, [skip this part](#dart-getting-started).**   
-
-#### Installation
-
-Before you begin to start my app, you will need Android Studio to run this project. Follow the links below to install them:
+**Before you begin to start my app, you will need Android Studio to run this project. Follow the links below to install them**:
 
 - **[Install Android Studio - Video](https://developer.android.com/studio/install)**
 - [**Install Android Studio - Guide**](https://developer.android.com/codelabs/basic-android-kotlin-compose-install-android-studio#0)
@@ -62,6 +55,10 @@ git clone https://github.com/BraedenGiasson/BraedensCountryGuesser.github.io.git
 #### Open project
 
 Now, you need to **open Android Studio**. Once opened, click on '**Open**' to open an existing project, and navigate to the **folder** you **cloned** the **repo** in. **Double click** on the project folder, or select the project folder, and click '**OK**', to open the project in Android Studio.
+
+## :joystick: Usage
+
+:warning: **Coming soon!**
 
 ## :video_game: Play the Game
 
