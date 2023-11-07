@@ -78,7 +78,7 @@ The user of the app can **click on a customer** to **show the customer details**
 
 The user also has the option to **create a new customer**, **edit an existing customer** or **delete an existing customer**.
 
-<img src="./images/Home_Page.png" alt="Home Page" height="100" />
+<img src="./images/Home_Page.png" alt="Home Page" height="500" />
 
 #### :bulb: Creating a Customer
 #### :pencil2: Editing a Customer
