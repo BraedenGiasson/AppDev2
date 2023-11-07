@@ -76,12 +76,47 @@ The **goal of this page** is to see a **list** of the **customers** registered o
 
 The user of the app can **click on a customer** to **show the customer details**.
 
-The user also has the option to **create a new customer**, **edit an existing customer** or **delete an existing customer**.
+The user also has the option to **[create a new customer](#bulb-creating-a-customer)**, **[edit an existing customer](#pencil2-editing-a-customer)** or **[delete an existing customer](#x-deleting-a-customer)**.
 
 <img src="./images/Home_Page.png" alt="Home Page" height="650" />
 
 #### :bulb: Creating a Customer
+
+The **goal of this page** is to **create a new customer** for the invoicing app.
+
+The user of the app has to **input the necessary data** in the **corresponding input fields**.
+
+Since a customer can have multiple addresses, the '**Set as default address**' box indicates that the **current address** in the input field will be the **customer's default address**.
+
+Click '**Create**' to create the new customer.
+
+Click '**Cancel**' to cancel creating the new customer.
+
+<img src="./images/Creating_a_customer.png" alt="Creating a customer" height="650" />
+
 #### :pencil2: Editing a Customer
+
+The **goal of this page** is to **update the existing details of a customer**.
+
+The user of the app can **swipe right** on a customer, and **click the blue button** to go to the editing page. 
+
+Since a customer can have multiple addresses, the '**Set as default address**' box indicates that the **current address** in the input field will be the **customer's default address**.
+
+Click '**Create**' to create the new customer.
+
+Click '**Cancel**' to cancel creating the new customer.
+
+<div style="display: flex; flex-direction: row; gap: 1em;">
+<img src="./images/Edit_button_customer.png" alt="Edit button - edit customer" height="650" />
+    <img src="./images/Edit_button_customer.png" alt="Edit button - edit customer" height="650" />
+</div>
+
+
+
+<img src="./images/Edit_button_customer.png" alt="Edit button - edit customer" height="650" />
+
+<img src="./images/Editing_a_customer.png" alt="Editing a customer" height="650" />
+
 #### :x: Deleting a Customer
 #### :scroll: Customer Page
 #### :bulb: Creating an Invoice
