@@ -4,7 +4,23 @@
 
 - **:question: [Why this Project?](#question-why-this-project)**
 - :arrow_down: [**Android Studio Installation**](#arrow_down-android-studio-installation) 
-- **:video_game: [Play the Game](#video_game-play-the-game)**
+- :dart: [**Getting Started & Setup**](#dart-getting-started-&-setup) 
+- **:iphone: [Run the Project](#iphone-run-the-project)**
+- **:joystick: [App Usage](#joystick-app-usage)**
+  - **:scroll: [Home Page](#scroll-home-page)**
+  -  **:bulb: [Creating a Customer](#bulb-creating-a-customer)**
+  -  **:pencil2: [Editing a Customer](#pencil2-editing-a-customer)** 
+  - **:x: [Deleting a Customer](#x-deleting-a-customer)**
+  - **:scroll: [Customer Page](#scroll-customer-page)**
+  - **:bulb: [Creating an Invoice](#bulb-creating-an-invoice)**
+  - **:bulb: [Creating an Invoice Detail](#bulb-creating-an-invoice_detail)**
+  - **:pencil2: [Editing an Invoice](#pencil2-editing-an-invoice)**
+  - **:pencil2: [Editing an Invoice Detail](#pencil2-editing-an-invoice_detail)** 
+  - **:x: [Deleting an Invoice Detail](#x-deleting-an-invoice_detail)** 
+  - **:x: [Deleting an Invoice](#x-deleting-an-invoice)** 
+  - **:scroll: [Invoice Page](#scroll-invoice-page)**
+  - **:gear: [Settings](#gear-settings)** 
+
 - **:open_file_folder: [Languages, Frameworks/Libraries, and Tools](#open_file_folder-languages-frameworkslibraries-and-tools)**
 
 ## :question: Why this Project?
@@ -66,7 +82,7 @@ It will take some time for Gradle to run, but the app will open once finished.
 
 :warning: If any **errors occur**, **refer to [this](https://developer.android.com/studio/known-issues) section** to help **solve** them. 
 
-## :joystick: Usage
+## :joystick: App Usage
 
 #### :scroll: Home Page
 
@@ -76,7 +92,7 @@ The **goal of this page** is to see a **list** of the **customers** registered o
 
 The user of the app can **click on a customer** to **show the customer details**.
 
-The user also has the option to **[create a new customer](#bulb-creating-a-customer)**, **[edit an existing customer](#pencil2-editing-a-customer)** or **[delete an existing customer](#x-deleting-a-customer)**.
+The user also has the option to :bulb: **[create a new customer](#bulb-creating-a-customer)**, :pencil2: **[edit an existing customer](#pencil2-editing-a-customer)**, or :x: **[delete an existing customer](#x-deleting-a-customer)**.
 
 <img src="./images/Home_Page.png" alt="Home Page" height="650" />
 
@@ -86,11 +102,11 @@ The **goal of this page** is to **create a new customer** for the invoicing app.
 
 The user of the app has to **input the necessary data** in the **corresponding input fields**.
 
-Since a customer can have multiple addresses, the '**Set as default address**' box indicates that the **current address** in the input field will be the **customer's default address**.
+Since a customer can have multiple addresses, if **checked**, the '**Set as default address**' box indicates that the **current address** in the input field will be the **customer's default address**.
 
-Click '**Create**' to create the new customer.
+:white_check_mark: Click '**Create**' to create the new customer.
 
-Click '**Cancel**' to cancel creating the new customer.
+:x: Click '**Cancel**' to cancel creating the new customer.
 
 <img src="./images/Creating_a_customer.png" alt="Creating a customer" height="650" />
 
@@ -100,34 +116,134 @@ The **goal of this page** is to **update the existing details of a customer**.
 
 The user of the app can **swipe right** on a customer, and **click the blue button** to go to the editing page. 
 
-Since a customer can have multiple addresses, the '**Set as default address**' box indicates that the **current address** in the input field will be the **customer's default address**.
+The user can **edit the first & last names**, and **choose a different address**.
 
-Click '**Create**' to create the new customer.
+They can also **add new addresses** to the customer profile, or **edit existing addresses** for the customer.
 
-Click '**Cancel**' to cancel creating the new customer.
+:white_check_mark: Click '**Update**' to update the customer.
+
+:x: Click '**Cancel**' to cancel updating the customer.
 
 <div style="display: flex; flex-direction: row; justify-content: space-between;">
 <img src="./images/Edit_button_customer.png" alt="Edit button - edit customer" height="650" />
     <img src="./images/Editing_a_customer.png" alt="Editing a customer" height="650" />
 </div>
 
-
-
-<img src="./images/Edit_button_customer.png" alt="Edit button - edit customer" height="650" />
-
-<img src="./images/Editing_a_customer.png" alt="Editing a customer" height="650" />
-
 #### :x: Deleting a Customer
+
+The **goal of this action** is to **delete an existing customer**.
+
+The user of the app can **swipe left** on a customer, and **click the red button** to **delete** the customer. 
+
+The user will be asked to **confirm** if they really want to **delete the customer**. 
+
+<img src="./images/Deleting_a_customer.png" alt="Deleting a customer" height="650" />
+
 #### :scroll: Customer Page
+
+The **goal of this page** is to **show the details of a customer**.
+
+The **customer** can see their **address**, the **total amount for all invoices**, and a **list of their different invoices** and long with **each total**.
+
+The customer has the option to :scroll: **[show the invoice](#scroll-invoice-page)**, :bulb: **[create a new invoice](#bulb-creating-an-invoice)**, :pencil2: **[edit an existing invoice](#pencil2-editing-an-invoice)**, or :x: **[delete an existing invoice](#x-deleting-an-invoice)**.
+
+<img src="./images/Customer_Page.png" alt="Customer Page" height="650" />
+
 #### :bulb: Creating an Invoice
+
+The **goal of this page** is to **create a new invoice** for the **customer**.
+
+The **customer** has to **choose a delivery address**, and can **optionally add invoice product details** for the invoice. It is **not necessary** to **add product details** upon initially **creating the invoice**, this can also be done when **editing the invoice**.
+
+:white_check_mark: Click '**Create**' to create the new invoice.
+
+:x: Click '**Cancel**' to cancel creating the new invoice.
+
+<img src="./images/Creating_an_invoice.png" alt="Creating an invoice" height="650" />
+
 #### :bulb: Creating an Invoice Detail
+
+The **goal of this page** is to **create a new invoice product detail** for the **invoice**.
+
+The customer has to **input the product name**, the **price of the product**, and the **quantity of the product**.
+
+:white_check_mark: Click '**Add**' to add the new invoice product detail for the invoice.
+
+:x: Click '**Cancel**' to cancel adding the new invoice product detail for the invoice.
+
+<img src="./images/Creating_an_invoice_detail.png" alt="Creating an invoice detail" height="650" />
+
 #### :pencil2: Editing an Invoice
+
+The **goal of this page** is to **update the existing details of an invoice**.
+
+The **customer** can **swipe right** on a invoice, and **click the blue button** to go to the editing page. 
+
+The **customer** can **choose a different delivery address**, and can also :bulb: **[add a new invoice product detail](#bulb-creating-an-invoice-detail)**, :pencil2: **[edit existing product details](#pencil2-editing-an-invoice-detail)**, and :x: **[delete existing product details](#x-deleting-an-invoice-detail)**.
+
+:white_check_mark: Click '**Update**' to update the invoice.
+
+:x: Click '**Cancel**' to cancel updating the invoice.
+
+<div style="display: flex; flex-direction: row; justify-content: space-between;">
+<img src="./images/Edit_button_invoice.png" alt="Edit button - edit invoice" height="650" />
+    <img src="./images/Editing_an_invoice.png" alt="Editing an invoice" height="650" />
+</div>
+
 #### :pencil2: Editing an Invoice Detail
+
+The **goal of this page** is to **update the existing details of an invoice product detail**.
+
+The **customer** can **swipe right** on a invoice detail, and **click the blue button** to go to the editing popup. 
+
+The **customer** can **change the product name**, the **price of the product**, and the **quantity of the product**.
+
+:white_check_mark: Click '**Update**' to update the invoice detail.
+
+:x: Click '**Cancel**' to cancel updating the invoice detail.
+
+<div style="display: flex; flex-direction: row; justify-content: space-between;">
+<img src="./images/Edit_button_invoice_detail.png" alt="Edit button - edit invoice detail" height="650" />
+    <img src="./images/Editing_an_invoice_detail.png" alt="Editing an invoice detail" height="650" />
+</div>
+
 #### :x: Deleting an Invoice Detail
+
+The **goal of this action** is to **delete an existing invoice product detail** on an **invoice**.
+
+The **customer** can **swipe left** on an invoice product detail, and **click the red button** to **delete** the invoice product detail. 
+
+The **customer** will be asked to **confirm** if they really want to **delete the invoice product detail**. 
+
+<img src="./images/Deleting_an_invoice_detail.png" alt="Deleting an invoice detail" height="650" />
+
 #### :x: Deleting an Invoice
-#### :bulb: Creating an Invoice
+
+The **goal of this action** is to **delete an existing invoice** on an **customer**.
+
+The **customer** can **swipe left** on an invoice, and **click the red button** to **delete** the invoice. 
+
+The **customer** will be asked to **confirm** if they really want to **delete the invoice**. 
+
+<img src="./images/Deleting_an_invoice.png" alt="Deleting an invoice" height="650" />
+
 #### :scroll: Invoice Page
+
+The **goal of this page** is to **show the details of an invoice** for a **customer**.
+
+The **customer** can see their **delivery address**, the **invoice number**, the **date of issue of the invoice**, the **total amount for all invoices**, and a **list of all invoice product details** for that invoice.
+
+<img src="./images/Invoice_Page.png" alt="Invoice Page" height="650" />
+
 #### :gear: Settings
+
+The **goal of this page** is to **show & edit the settings** of the app.
+
+The **user of the app** can **edit a company name**, and the **number of employees** at said company.
+
+**:warning: The settings page is not used for anything, it was just a requirement for the assignment.**
+
+<img src="./images/Settings_Page.png" alt="Settings Page" height="650" />
 
 ## :open_file_folder: Languages, Frameworks/Libraries, and Tools
 
