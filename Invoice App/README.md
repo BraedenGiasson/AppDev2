@@ -90,9 +90,9 @@ Once the app opens, you will be greeted with the **Home Page**.
 
 The **goal of this page** is to see a **list** of the **customers** registered on the app, the **number of invoices** they each have, and **create**, **edit**, and **delete** customers.
 
-The user of the app can **click on a customer** to **show the customer details**.
+The **user of the app** can **click on a customer** to **show the customer details**.
 
-The user also has the option to :bulb: **[create a new customer](#bulb-creating-a-customer)**, :pencil2: **[edit an existing customer](#pencil2-editing-a-customer)**, or :x: **[delete an existing customer](#x-deleting-a-customer)**.
+The **user** also has the option to :bulb: **[create a new customer](#bulb-creating-a-customer)**, :pencil2: **[edit an existing customer](#pencil2-editing-a-customer)**, or :x: **[delete an existing customer](#x-deleting-a-customer)**.
 
 <img src="./images/Home_Page.png" alt="Home Page" height="650" />
 
@@ -100,7 +100,7 @@ The user also has the option to :bulb: **[create a new customer](#bulb-creating-
 
 The **goal of this page** is to **create a new customer** for the invoicing app.
 
-The user of the app has to **input the necessary data** in the **corresponding input fields**.
+The **user of the app** has to **input the necessary data** in the **corresponding input fields**.
 
 Since a customer can have multiple addresses, if **checked**, the '**Set as default address**' box indicates that the **current address** in the input field will be the **customer's default address**.
 
