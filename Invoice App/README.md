@@ -106,9 +106,9 @@ Click '**Create**' to create the new customer.
 
 Click '**Cancel**' to cancel creating the new customer.
 
-<div style="display: flex; flex-direction: row; gap: 1em;">
+<div style="display: flex; flex-direction: row; justify-content: space-between;">
 <img src="./images/Edit_button_customer.png" alt="Edit button - edit customer" height="650" />
-    <img src="./images/Edit_button_customer.png" alt="Edit button - edit customer" height="650" />
+    <img src="./images/Editing_a_customer.png" alt="Editing a customer" height="650" />
 </div>
 
 
